@@ -1,8 +1,9 @@
-const { combineReducers } = require("redux");
+//const { combineReducers } = require("redux");
+import { combineReducers } from "redux";
 import cartCounterReducer from "./cartCounter";
 import cartProductReducer from "./cartProduct";
 
-// COmbine all the reducers into a single one
+// Combine all the reducers into a single one
 // and register that one with the store in index.js
 
 const rootReducer = combineReducers({

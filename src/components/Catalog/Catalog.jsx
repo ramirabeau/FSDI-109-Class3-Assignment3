@@ -52,9 +52,9 @@ class Catalog extends Component {
   };
   //component was rendered
   //lets call the service to get the data
-  componentDidMount() {
+  async componentDidMount() {
     let service = new ProductService();
-    const data = service.getProducts();
+    const data = await service.getProducts();
 
     //identify the unique categories
     let categories = [];

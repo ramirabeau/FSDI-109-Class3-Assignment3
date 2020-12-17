@@ -5,7 +5,7 @@ class Home extends Component {
     return (
       <div>
         <h1>Welcome to Mir-Allen Organic Foods</h1>
-        <h3>This is becoming interesting</h3>
+        <h3>"Providing Nature's Best"</h3>
       </div>
     );
   }

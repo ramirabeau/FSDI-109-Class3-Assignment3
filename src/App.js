@@ -17,7 +17,7 @@ function App() {
       <div className="App">
         <Navbar> </Navbar>
         <div className="App-title">
-          <h1> Mir - Allen Organic Foods </h1>
+          <h1> Mir-Allen Organic Foods </h1>
         </div>
         <div className="container-fluid">
           <Switch>
